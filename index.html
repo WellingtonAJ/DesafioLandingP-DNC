@@ -41,11 +41,12 @@
 
     <!--FALE CONOSCO-->
     <div id="faleConosco">
-        <form action="https://api.sheetmonkey.io/form/v4xguJYtxFshnmxaiaBxfz">
+        <form action="https://api.sheetmonkey.io/form/v4xguJYtxFshnmxaiaBxfz" method="post">
             <h1 id="tituloFaleConosco">Conheça mais sobre nossos serviços:</h1>
             <input type="text" placeholder="Nome" name="Name" required> <br><br>
             <input type="email" placeholder="Email" name="Email" required> <br><br>
-            <button>Fale Conosco</button>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Fale Conosco</button>
         </form>
     </div>
 </body>
